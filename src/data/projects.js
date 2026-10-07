@@ -1,0 +1,86 @@
+export const projects = [
+  {
+    title: "Diabetic Grocery Receipt Analyzer",
+    image: "/projects/grocery-analyzer.webp",
+    description:
+      "AI-powered health-tech application that analyzes grocery receipts and provides diabetic-friendly food insights, risk assessments and personalized dietary recommendations.",
+    technologies: [
+      "AWS Lambda",
+      "API Gateway",
+      "S3",
+      "Rekognition",
+      "DynamoDB",
+      "SES",
+      "IAM",
+      "React.js",
+      "JavaScript",
+      "Python",
+    ],
+    githubUrl: "https://github.com/IT22074072",
+    caseStudyUrl: "",
+    demoUrl: "",
+  },
+  {
+    title: "NLP Fine-tuning Research - Meeting Transcript Analysis",
+    image: "/projects/nlp-transcript-analysis.webp",
+    description:
+      "NLP workflow that generates structured hierarchical summaries and action items from meeting transcripts.",
+    technologies: ["Python", "spaCy", "DistilBERT", "SBERT", "BERTopic"],
+    githubUrl: "https://github.com/IT22074072",
+    caseStudyUrl: "",
+    demoUrl: "",
+  },
+  {
+    title: "Event Ticket Booking Platform - Event Service",
+    image: "/projects/event-ticket-service.webp",
+    description:
+      "Cloud-deployed event-management microservice supporting CRUD, search/filtering, availability, ticket updates and ratings.",
+    technologies: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Docker",
+      "AWS ECS",
+      "ECR",
+      "ALB",
+      "API Gateway",
+      "CloudWatch",
+      "GitHub Actions",
+      "SonarCloud",
+      "Snyk",
+    ],
+    githubUrl: "https://github.com/IT22074072",
+    caseStudyUrl: "",
+    demoUrl: "",
+  },
+  {
+    title: "Epic Eats - Cloud-Native Food Ordering & Delivery System",
+    image: "/projects/epic-eats.webp",
+    description:
+      "Microservices-based delivery platform with driver management, automatic delivery assignment and real-time location tracking.",
+    technologies: ["MERN", "Docker", "Kubernetes", "Socket.IO"],
+    githubUrl: "https://github.com/IT22074072",
+    caseStudyUrl: "",
+    demoUrl: "",
+  },
+  {
+    title: "EV Charging Station Android App",
+    image: "/projects/ev-charging-app.webp",
+    description:
+      "Android application for discovering nearby EV charging stations with offline support, map-based browsing and detailed station views.",
+    technologies: ["Java", "Retrofit", "SQLite", "Google Maps"],
+    githubUrl: "https://github.com/IT22074072",
+    caseStudyUrl: "",
+    demoUrl: "",
+  },
+  {
+    title: "Stock Portfolio Management Application",
+    image: "/projects/portfolio-tracker.webp",
+    description:
+      "Portfolio dashboard for tracking stock holdings, market prices and performance metrics with data-driven visualizations.",
+    technologies: ["Spring Boot", "React.js", "Alpha Vantage API", "Recharts"],
+    githubUrl: "https://github.com/IT22074072",
+    caseStudyUrl: "",
+    demoUrl: "",
+  },
+];
