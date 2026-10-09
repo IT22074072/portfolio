@@ -26,7 +26,7 @@ export const projects = [
     description:
       "NLP workflow that generates structured hierarchical summaries and action items from meeting transcripts.",
     technologies: ["Python", "spaCy", "DistilBERT", "SBERT", "BERTopic"],
-    githubUrl: "https://github.com/IT22074072",
+    githubUrl: "https://github.com/IT22074072/Final_MeetGuide",
     caseStudyUrl: "",
     demoUrl: "",
   },
