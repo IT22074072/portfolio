@@ -73,7 +73,11 @@ export const projects = [
     description:
       "Android application for discovering nearby EV charging stations with offline support, map-based browsing and detailed station views.",
     technologies: ["Java", "Retrofit", "SQLite", "Google Maps"],
-    githubUrl: "https://github.com/IT22074072",
+    githubUrl: "",
+    githubUrls: [
+      "https://github.com/IT22074072/EAD_EV_Mobile",
+      "https://github.com/IT22074072/EAD_EV_Web",
+    ],
     caseStudyUrl: "",
     demoUrl: "",
   },
