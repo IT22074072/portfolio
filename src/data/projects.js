@@ -87,7 +87,7 @@ export const projects = [
     description:
       "Portfolio dashboard for tracking stock holdings, market prices and performance metrics with data-driven visualizations.",
     technologies: ["Spring Boot", "React.js", "Alpha Vantage API", "Recharts"],
-    githubUrl: "https://github.com/IT22074072",
+    githubUrl: "https://github.com/IT22074072/Portfolio_Tracker",
     caseStudyUrl: "",
     demoUrl: "",
   },
