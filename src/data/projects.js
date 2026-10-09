@@ -59,7 +59,11 @@ export const projects = [
     description:
       "Microservices-based delivery platform with driver management, automatic delivery assignment and real-time location tracking.",
     technologies: ["MERN", "Docker", "Kubernetes", "Socket.IO"],
-    githubUrl: "https://github.com/IT22074072",
+    githubUrl: "",
+    githubUrls: [
+      "https://github.com/IT22074072/Food-Site-Backend",
+      "https://github.com/IT22074072/Food-Site-Frontend",
+    ],
     caseStudyUrl: "",
     demoUrl: "",
   },

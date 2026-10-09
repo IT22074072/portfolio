@@ -2,6 +2,10 @@ import { useState } from "react";
 
 export default function ProjectCard({ project }) {
   const [imageFailed, setImageFailed] = useState(false);
+  const githubLinks = [
+    ...(Array.isArray(project.githubUrls) ? project.githubUrls : []),
+    ...(project.githubUrl ? [project.githubUrl] : []),
+  ].filter(Boolean);
 
   return (
     <article className="project-card" data-reveal>
@@ -32,9 +36,16 @@ export default function ProjectCard({ project }) {
         </ul>
 
         <div className="project-card__links">
-          <a href={project.githubUrl} target="_blank" rel="noreferrer">
-            GitHub
-          </a>
+          {githubLinks.map((githubLink, index) => (
+            <a
+              key={`${project.title}-github-${index}`}
+              href={githubLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {githubLinks.length > 1 ? `GitHub ${index + 1}` : "GitHub"}
+            </a>
+          ))}
           {project.caseStudyUrl ? (
             <a href={project.caseStudyUrl}>View Project / Case Study</a>
           ) : null}
