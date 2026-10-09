@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Diabetic Grocery Receipt Analyzer",
-    image: "/projects/grocery-analyzer.webp",
+    image: "/projects/grocery-analyzer.jpg",
     description:
       "AI-powered health-tech application that analyzes grocery receipts and provides diabetic-friendly food insights, risk assessments and personalized dietary recommendations.",
     technologies: [
