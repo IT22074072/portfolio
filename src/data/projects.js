@@ -16,7 +16,7 @@ export const projects = [
       "JavaScript",
       "Python",
     ],
-    githubUrl: "https://github.com/IT22074072",
+    githubUrl: "https://github.com/IT22074072/diabetic-receipt-analyzer",
     caseStudyUrl: "",
     demoUrl: "",
   },
