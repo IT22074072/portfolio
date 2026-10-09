@@ -540,13 +540,13 @@ select {
 }
 
 .project-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
   border-color: rgba(125, 211, 252, 0.3);
-  box-shadow: 0 26px 64px rgba(0, 0, 0, 0.34);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.3);
 }
 
 .project-card__media {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 21 / 10;
   background: linear-gradient(145deg, rgba(56, 189, 248, 0.12), rgba(13, 23, 38, 0.88));
   border-bottom: 1px solid rgba(148, 163, 184, 0.12);
 }
@@ -564,25 +564,25 @@ select {
   gap: 0.35rem;
   text-align: center;
   color: var(--text-muted);
-  padding: 1.25rem;
+  padding: 1rem;
 }
 
 .project-card__placeholder span {
   display: grid;
   place-items: center;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 1.2rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 1rem;
   background: rgba(56, 189, 248, 0.12);
   color: var(--accent);
-  font-size: 1.6rem;
+  font-size: 1.35rem;
   font-weight: 800;
 }
 
 .project-card__body {
   display: grid;
-  gap: 1rem;
-  padding: 1.65rem;
+  gap: 0.8rem;
+  padding: 1.15rem 1.25rem 1.25rem;
 }
 
 .project-card__body p,
@@ -596,13 +596,13 @@ select {
 .education-card__meta,
 .education-card p {
   color: var(--text-muted);
-  font-size: 1.06rem;
+  font-size: 0.98rem;
 }
 
 .project-card__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.65rem;
+  gap: 0.5rem;
 }
 
 .project-card__links a,
