@@ -49,7 +49,7 @@ export const projects = [
       "SonarCloud",
       "Snyk",
     ],
-    githubUrl: "https://github.com/IT22074072",
+    githubUrl: "https://github.com/IT22074072/Event-Booking-System",
     caseStudyUrl: "",
     demoUrl: "",
   },
