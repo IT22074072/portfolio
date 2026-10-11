@@ -30,9 +30,14 @@ export default function ProjectCard({ project }) {
         <p>{project.description}</p>
 
         <ul className="project-card__tags">
-          {project.technologies.map((technology) => (
+          {project.technologies.slice(0, 5).map((technology) => (
             <li key={technology}>{technology}</li>
           ))}
+          {project.technologies.length > 5 ? (
+            <li className="project-card__tag-count">
+              +{project.technologies.length - 5} more
+            </li>
+          ) : null}
         </ul>
 
         <div className="project-card__links">
