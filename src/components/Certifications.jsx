@@ -12,8 +12,11 @@ export default function Certifications() {
 
       <ul className="certifications-grid" data-reveal>
         {certifications.map((certification) => (
-          <li key={certification} className="certification-pill">
-            {certification}
+          <li key={certification.name} className="certification-pill">
+            <strong>{certification.name}</strong>
+            <span>
+              {certification.issuer} · {certification.year}
+            </span>
           </li>
         ))}
       </ul>
