@@ -750,6 +750,8 @@ select {
 
 .education-card__specialization {
   margin-top: 0.15rem;
+  color: var(--text);
+  font-weight: 700;
 }
 
 .education-card__institution {
