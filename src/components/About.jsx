@@ -3,7 +3,11 @@ import SectionHeading from "./SectionHeading";
 export default function About() {
   return (
     <section className="section-shell" id="about">
-      <SectionHeading title="About Me" />
+      <SectionHeading
+        eyebrow="Profile"
+        title="About Me"
+        description="A short overview of my background, working style, and the kind of problems I like to solve."
+      />
 
       <div className="about-card" data-reveal>
         <p>

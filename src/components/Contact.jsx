@@ -4,7 +4,11 @@ import { contactDetails } from "../data/site";
 export default function Contact() {
   return (
     <section className="section-shell" id="contact">
-      <SectionHeading title="Contact" />
+      <SectionHeading
+        eyebrow="Let's Talk"
+        title="Contact"
+        description="If you want to discuss a role, collaboration, or a product idea, here is the fastest way to reach me."
+      />
 
       <div className="contact-card" data-reveal>
         <div className="contact-card__links">

@@ -4,7 +4,11 @@ import { education } from "../data/education";
 export default function Education() {
   return (
     <section className="section-shell" id="education">
-      <SectionHeading title="Education" />
+      <SectionHeading
+        eyebrow="Background"
+        title="Education"
+        description="Academic grounding, research work, and results that support my practical engineering experience."
+      />
 
       <div className="education-grid">
         {education.map((item) => (

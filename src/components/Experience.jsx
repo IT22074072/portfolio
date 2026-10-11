@@ -4,7 +4,11 @@ import { experiences } from "../data/experience";
 export default function Experience() {
   return (
     <section className="section-shell" id="experience">
-      <SectionHeading title="Experience" />
+      <SectionHeading
+        eyebrow="Journey"
+        title="Experience"
+        description="Roles and responsibilities that shaped my approach to software delivery, collaboration, and problem solving."
+      />
 
       <div className="timeline">
         {experiences.map((experience) => (
