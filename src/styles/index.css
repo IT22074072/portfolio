@@ -577,6 +577,14 @@ select {
   font-family: var(--font-display);
 }
 
+.project-card h3 {
+  display: -webkit-box;
+  min-height: 2.5em;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .skill-tags,
 .project-card__tags {
   display: flex;
@@ -617,7 +625,7 @@ select {
 }
 
 .project-card__media {
-  aspect-ratio: 16 / 8.5;
+  aspect-ratio: 16 / 7.5;
   background: linear-gradient(145deg, rgba(76, 201, 240, 0.1), rgba(13, 23, 38, 0.88));
   border-bottom: 1px solid rgba(148, 163, 184, 0.12);
   display: grid;
@@ -674,6 +682,14 @@ select {
 .education-card p {
   color: var(--text-muted);
   font-size: 0.98rem;
+}
+
+.project-card__body > p {
+  display: -webkit-box;
+  min-height: 4.65em;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .project-card__links {
