@@ -6,6 +6,7 @@ export const skillCategories = [
   {
     title: "Backend",
     items: [
+      "Java",
       "Node.js",
       "Express.js",
       "Spring Boot",
