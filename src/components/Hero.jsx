@@ -64,27 +64,10 @@ export default function Hero() {
               <p>Place your photo at public/profile-photo.jpg</p>
             </div>
           )}
-          <figcaption>
-            <strong>Dinithi Sanjana</strong>
-            <span>Graduate Software Engineer</span>
-          </figcaption>
+          
         </figure>
 
-        <div className="hero__panel-card">
-          <p className="hero__panel-label">Focus Areas</p>
-          <ul className="hero__stats">
-            {heroStats.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="hero__panel-card hero__panel-card--accent">
-          <p className="hero__panel-label">Profile</p>
-          <p>
-            Graduate Software Engineer with hands-on experience in MERN, Spring
-            Boot, AWS, and AI/ML workflows.
-          </p>
-        </div>
+        
       </aside>
     </section>
   );
