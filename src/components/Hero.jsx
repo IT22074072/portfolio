@@ -64,10 +64,7 @@ export default function Hero() {
               <p>Place your photo at public/profile-photo.jpg</p>
             </div>
           )}
-          
         </figure>
-
-        
       </aside>
     </section>
   );
